@@ -4,7 +4,7 @@ export default function CardList(props) {
     const { judul, kelompok, shift, isNameBold, image } = props;
 
     return (
-        <div className="bg-white shadow pb-12">
+        <div className=" bg-white shadow pb-12">
             <div className="text-center">
                 <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 pt-6">
                     {judul}
